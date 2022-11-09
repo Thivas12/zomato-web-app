@@ -3,7 +3,7 @@ import pickle as pkl
 import warnings
 warnings.filterwarnings("ignore")
 
-model = pkl.load(open('model_z.pkl','rb'))
+model = pkl.load(open('model.pkl','rb'))
 
 
 def prediction(online_order, book_table, votes, location, rest_type,
