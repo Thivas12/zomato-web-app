@@ -16,12 +16,7 @@ def prediction(online_order, book_table, votes, location, rest_type,
 
  
 st.title("Zomato Restaurant Rate Prediction")  
-html_temp = """  
-<div style = "background-colour: #FFFF00; padding: 16px">  
-<h1 style = "color: #000000; text-align: centre; "> Streamlit Heart Stroke Prediction ML App   
-</h1>  
-</div>  
-"""  
+ 
 st.markdown(html_temp, unsafe_allow_html = True)  
 online_order = st.number_input('Do you want to order online? ( 1: Yes , 0: No):', min_value=0.0, max_value=1.0, value=1.0) 
 book_table = st.number_input('Do you want to book table? ( 1: Yes , 0: No):', min_value=0.0, max_value=1.0, value=1.0)
